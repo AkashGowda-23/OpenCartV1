@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-31T03:59:34 IST" name="Suite" finished-at="2025-03-31T03:59:38 IST" duration-ms="4193">
+  <suite started-at="2025-04-02T18:07:11 IST" name="Suite" finished-at="2025-04-02T18:07:30 IST" duration-ms="18607">
     <groups>
+      <group name="Datadriven">
+        <method signature="TC003_LoginDDTest.verify_TC003_LoginDDTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC003_LoginDDTest@51dcb805]" name="verify_TC003_LoginDDTest" class="TestCases.TC003_LoginDDTest"/>
+      </group> <!-- Datadriven -->
     </groups>
-    <test started-at="2025-03-31T03:59:34 IST" name="Test" finished-at="2025-03-31T03:59:38 IST" duration-ms="4193">
-      <class name="TestCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setuo(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC001_AccountRegistrationTest@367ffa75]" started-at="2025-03-31T03:59:34 IST" name="setuo" finished-at="2025-03-31T03:59:36 IST" duration-ms="2438" status="PASS">
+    <test started-at="2025-04-02T18:07:11 IST" name="Test" finished-at="2025-04-02T18:07:30 IST" duration-ms="18607">
+      <class name="TestCases.TC003_LoginDDTest">
+        <test-method is-config="true" signature="setuo(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC003_LoginDDTest@51dcb805]" started-at="2025-04-02T18:07:12 IST" name="setuo" finished-at="2025-04-02T18:07:15 IST" duration-ms="3031" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,15 +26,164 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setuo -->
-        <test-method signature="account_registeration()[pri:0, instance:TestCases.TC001_AccountRegistrationTest@367ffa75]" started-at="2025-03-31T03:59:36 IST" name="account_registeration" finished-at="2025-03-31T03:59:38 IST" duration-ms="1575" status="PASS">
+        <test-method signature="verify_TC003_LoginDDTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC003_LoginDDTest@51dcb805]" started-at="2025-04-02T18:07:15 IST" name="verify_TC003_LoginDDTest" data-provider="LoginData" finished-at="2025-04-02T18:07:17 IST" duration-ms="1531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tanem48709@motivue.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- account_registeration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC001_AccountRegistrationTest@367ffa75]" started-at="2025-03-31T03:59:38 IST" name="tearDown" finished-at="2025-03-31T03:59:38 IST" duration-ms="153" status="PASS">
+        </test-method> <!-- verify_TC003_LoginDDTest -->
+        <test-method signature="verify_TC003_LoginDDTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC003_LoginDDTest@51dcb805]" started-at="2025-04-02T18:07:17 IST" name="verify_TC003_LoginDDTest" data-provider="LoginData" finished-at="2025-04-02T18:07:18 IST" duration-ms="1386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lakshmi@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Laxmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_TC003_LoginDDTest -->
+        <test-method signature="verify_TC003_LoginDDTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC003_LoginDDTest@51dcb805]" started-at="2025-04-02T18:07:18 IST" name="verify_TC003_LoginDDTest" data-provider="LoginData" finished-at="2025-04-02T18:07:19 IST" duration-ms="1121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[lInvalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_TC003_LoginDDTest -->
+        <test-method signature="verify_TC003_LoginDDTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC003_LoginDDTest@51dcb805]" started-at="2025-04-02T18:07:19 IST" name="verify_TC003_LoginDDTest" data-provider="LoginData" finished-at="2025-04-02T18:07:29 IST" duration-ms="10137" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Login']"}
+  (Session info: chrome=134.0.6998.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [68b6da177baed38c8d6318513fa06cf9, findElement {using=xpath, value=//a[normalize-space()='Login']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\akash\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54701}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.244.1:4444/ses..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 68b6da177baed38c8d6318513fa06cf9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Login']"}
+  (Session info: chrome=134.0.6998.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [68b6da177baed38c8d6318513fa06cf9, findElement {using=xpath, value=//a[normalize-space()='Login']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\akash\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54701}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.244.1:4444/ses..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 68b6da177baed38c8d6318513fa06cf9
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at PageObject.HomePage.login(HomePage.java:30)
+at TestCases.TC003_LoginDDTest.verify_TC003_LoginDDTest(TC003_LoginDDTest.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_TC003_LoginDDTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC003_LoginDDTest@51dcb805]" started-at="2025-04-02T18:07:30 IST" name="tearDown" finished-at="2025-04-02T18:07:30 IST" duration-ms="280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- TestCases.TC001_AccountRegistrationTest -->
+      </class> <!-- TestCases.TC003_LoginDDTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
