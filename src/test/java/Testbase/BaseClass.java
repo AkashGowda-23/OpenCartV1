@@ -35,7 +35,7 @@ public class BaseClass {
 	 
 	 @BeforeClass(groups = {"Regression","Sanity","Master"})
 	 @Parameters({"os","browser"})
-		public void setuo(String os,String br) throws IOException {
+		public void setup(String os,String br) throws IOException {
 		 
 		 
 		 //Loading configuration.properties file

@@ -11,7 +11,7 @@ public class TC002_LoginTest extends BaseClass {
 	
 	@Test(groups = {"Sanity","Master"})
 	public void verify_login() {
-		logger.info("Starting TC002_Login Test ");
+		logger.info(" *****************************************************Starting TC002_Login Test *************************************************");
 		
 		try {
 		
@@ -33,6 +33,8 @@ public class TC002_LoginTest extends BaseClass {
 		
 	}
 	catch(Exception e ) {
+		logger.error("TEst failed");
+		logger.debug("debug messages");
 		Assert.fail();
 		
 	}

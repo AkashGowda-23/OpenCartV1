@@ -4,24 +4,17 @@
   <listeners>
     <listener class-name="utilities.ExtentReportUtility"/>
   </listeners>
-  <test thread-count="5" name="Linux-chrome(failed)">
-    <parameter name="os" value="Linux"/>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="TestCases.TC002_LoginTest">
+      <class name="TestCases.TC003_LoginDDTest">
         <methods>
-          <include name="setuo"/>
-          <include name="verify_login"/>
+          <include name="verify_TC003_LoginDDTest" invocation-numbers="3"/>
           <include name="tearDown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- TestCases.TC002_LoginTest -->
-      <class name="TestCases.TC001_AccountRegistrationTest">
-        <methods>
-          <include name="setuo"/>
-          <include name="tearDown"/>
-          <include name="account_registeration"/>
-        </methods>
-      </class> <!-- TestCases.TC001_AccountRegistrationTest -->
+      </class> <!-- TestCases.TC003_LoginDDTest -->
     </classes>
-  </test> <!-- Linux-chrome(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
